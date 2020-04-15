@@ -436,6 +436,15 @@ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ | $$ |$$\ $$ |  $$ |$$ |  $$ |$$ | $$ | $
 	width: 100%;
 	padding: 20px 50px;
 	margin: 0 auto;
+        background-color: #e1e1e1
+}
+.logos{
+    text-align: center;
+    padding: 20px 50px;
+	margin: 0 auto;
+}
+.logos img{
+    max-height: 150px;
 }
 .footer_legal {
 	text-align: center;
