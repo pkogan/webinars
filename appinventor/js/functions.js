@@ -37,6 +37,7 @@ $(function () {
     function calendarCenter() {
 		hoy=new Date();
 		webinar=new Date(2020,3,17,15,0);
+                //webinar=new Date(2020,3,24,15,0);
 		tiempo=webinar - hoy;
 		
 		dias=Math.floor(tiempo/(3600*1000*24));
@@ -80,7 +81,7 @@ $(function () {
         console.log('am i runnning');
     }, 1000);
 
-    $('.share__btn').click(function(event){
+    /*$('.share__btn').click(function(event){
         event.preventDefault();
         var service = $(this).data('service');
         switch(service) {
@@ -108,7 +109,7 @@ $(function () {
                 return false;
         }
         window.open(go, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,' + window_size);
-    });
+    });*/
 
 
     // Either run the DOM update functions once for a published page or continuously for within the builder. 

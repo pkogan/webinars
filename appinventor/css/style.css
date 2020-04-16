@@ -416,11 +416,18 @@ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ | $$ |$$\ $$ |  $$ |$$ |  $$ |$$ | $$ | $
 .share__btn--linkedin:before {
 	content: '\f0e1';
 }
+.share__btn--instagram:hover {
+	border-color: #c0c0c0;
+	background: #c0c0c0;
+}
+.share__btn--instagram:before {
+	content: '\f16d';
+}
 
 
 
 /*
-#   $$$$$$\                      $$\                         
+#   $$$$$$\      n                $$\                         
 #  $$  __$$\                     $$ |                        
 #  $$ /  \__|$$$$$$\   $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$\  
 #  $$$$\    $$  __$$\ $$  __$$\\_$$  _|  $$  __$$\ $$  __$$\ 
