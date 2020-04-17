@@ -36,8 +36,8 @@ $(function () {
     }
     function calendarCenter() {
 		hoy=new Date();
-		webinar=new Date(2020,3,17,15,0);
-                //webinar=new Date(2020,3,24,15,0);
+		//webinar=new Date(2020,3,17,15,0);
+                webinar=new Date(2020,3,24,15,0);
 		tiempo=webinar - hoy;
 		
 		dias=Math.floor(tiempo/(3600*1000*24));
