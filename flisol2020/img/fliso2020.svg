@@ -26,7 +26,7 @@
    inkscape:export-ydpi="90"><metadata
      id="metadata301"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs299"><font
        horiz-adv-x="1024"
        id="font3135"
@@ -76,7 +76,7 @@
      showgrid="false"
      inkscape:zoom="0.55625733"
      inkscape:cx="993.52601"
-     inkscape:cy="202.39578"
+     inkscape:cy="849.57825"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -279,17 +279,17 @@
 <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros Cn;-inkscape-font-specification:TeX Gyre Heros Cn Bold Condensed"
-     x="797.56049"
-     y="654.13446"
+     x="761.6059"
+     y="646.94354"
      id="text3913"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3915"
-       x="797.56049"
-       y="654.13446">25 DE ABRIL / 15 A 19</tspan><tspan
+       x="761.6059"
+       y="646.94354">25 DE ABRIL / de 15 a 19hs</tspan><tspan
        sodipodi:role="line"
-       x="797.56049"
-       y="704.13446"
+       x="761.6059"
+       y="696.94354"
        id="tspan3959">CHARLAS VIRTUALES</tspan></text>
 <text
      xml:space="preserve"
@@ -389,13 +389,75 @@
 <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="354.15262"
-     y="676.86084"
+     x="271.45706"
+     y="673.26538"
      id="text3076"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan3078"
-       x="354.15262"
-       y="676.86084"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff6600;font-family:Courier;-inkscape-font-specification:Courier Bold">codename 20S0</tspan></text>
+       x="271.45706"
+       y="673.26538"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Courier;-inkscape-font-specification:Courier Bold">codename 20S0</tspan></text>
+<text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros Cn;-inkscape-font-specification:TeX Gyre Heros Cn Bold Condensed"
+     x="345.71945"
+     y="56.790657"
+     id="text3913-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="345.71945"
+       y="56.790657"
+       id="tspan3959-7" /></text>
+<text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff6600;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros Cn;-inkscape-font-specification:TeX Gyre Heros Cn Bold Condensed"
+     x="133.58746"
+     y="51.397457"
+     id="text3913-36"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="133.58746"
+       y="51.397457"
+       id="tspan3959-5">PARA TODO PÚBLICO</tspan></text>
+<text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros Cn;-inkscape-font-specification:TeX Gyre Heros Cn Bold Condensed"
+     x="800.54498"
+     y="747.11865"
+     id="text3913-35"
+     sodipodi:linespacing="125%"
+     inkscape:transform-center-x="30.561395"
+     inkscape:transform-center-y="-62.920519"><tspan
+       sodipodi:role="line"
+       x="800.54498"
+       y="747.11865"
+       id="tspan3959-2" /></text>
+<flowRoot
+     xml:space="preserve"
+     id="flowRoot3122"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3124"><rect
+         id="rect3126"
+         width="346.96173"
+         height="91.684189"
+         x="796.39398"
+         y="721.80408" /></flowRegion><flowPara
+       id="flowPara3128" /></flowRoot><text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros Cn;-inkscape-font-specification:TeX Gyre Heros Cn Bold Condensed"
+     x="829.30865"
+     y="741.72546"
+     id="text3913-367"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3915-5"
+       x="829.30865"
+       y="741.72546"
+       style="fill:#ff6600">&quot;Quedate en casa y</tspan><tspan
+       sodipodi:role="line"
+       x="829.30865"
+       y="791.72546"
+       id="tspan3959-3"
+       style="fill:#ff6600">usá Software Libre&quot;</tspan></text>
 </svg>
