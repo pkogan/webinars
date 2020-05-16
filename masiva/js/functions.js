@@ -37,9 +37,9 @@ $(function () {
     function calendarCenter() {
 		hoy=new Date();
 		//webinar=new Date(2020,3,17,15,0);
-                webinar=new Date(2020,3,24,15,0);
+                webinar=new Date(2020,4,20,11,0);
 		tiempo=webinar - hoy;
-		
+		if(tiempo<0){tiempo=tiempo*(-1);
 		dias=Math.floor(tiempo/(3600*1000*24));
 		horas=Math.floor((tiempo-dias*(3600*1000*24))/3600000);
 		minutos=Math.floor((tiempo-dias*(3600*1000*24)-horas*(3600000))/60000);
