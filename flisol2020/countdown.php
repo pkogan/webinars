@@ -86,15 +86,20 @@ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ | $$ |$$\ $$ |  $$ |$$ |  $$ |$$ | $$ | $
         </style>
     </head>
     <body>
-        
+
         <video autoplay muted loop id="myVideo">
             <source src="video/bg.mp4" type="video/mp4">
         </video>
+        <audio  autoplay loop>
+
+            <source src="video/laquerenciarocktazataza.mp3" type="audio/mpeg">
+
+        </audio>
 
         <!-- Optional: some overlay text to describe the video -->
         <div class="content">
-            
-<!--            <button id="myBtn" onclick="myFunction()">P</button>-->
+
+            <!--            <button id="myBtn" onclick="myFunction()">P</button>-->
 
             <div class="container" data-lead-id="section01-container">
                 <div class="countdown-wrap" data-lead-id="countdown-wrap">
@@ -125,7 +130,7 @@ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ | $$ |$$\ $$ |  $$ |$$ |  $$ |$$ | $$ | $
                             <p class="timeRefSeconds" data-lead-id="seconds">SEGUNDOS</p>
                         </li>
                     </ul>
-                    <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/><a href="index.php">Mas info</a></p>
+                    <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/>Musica: La Querencia Rock del Sur <a href="index.php">Mas info</a></p>
                 </div>
 
             </div>

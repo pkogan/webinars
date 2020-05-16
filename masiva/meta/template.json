@@ -1,0 +1,313 @@
+{
+  "id": "4328",
+  "name": "Single Host Webinar Registration 2.0",
+  "mobile": true,
+  "notes": "QA Finding for border fix V2",
+  "syntax": 4,
+  "version": 1.02,
+  "style": {
+    "replacements": [
+      {
+      	"type": "color",
+      	"name": "Body",
+      	"find": "#fdfdfd"
+      },
+      {
+      	"type": "color",
+      	"name": "Link Color",
+      	"find": "#3ad9aa"
+      },
+      {
+      	"type": "color",
+      	"name": "Text",
+      	"find": "#343433"
+      },
+      {
+      	"type": "color",
+      	"name": "Header Background",
+      	"find": "#252526"
+      },
+      {
+      	"type": "color",
+      	"name": "Primary Color",
+      	"find": "#3ad9a1"
+      },
+      {
+      	"type": "color",
+      	"name": "Host Color",
+      	"find": "#3ad9a3"
+      },
+      {
+      	"type": "color",
+      	"name": "Border",
+      	"find": "#e1e1e1"
+      },
+      {
+      	"type": "color",
+      	"name": "Calendar BG",
+      	"find": "#ececec"
+      },
+      {
+      	"type": "color",
+      	"name": "Calendar Day",
+      	"find": "#fffffe"
+      },
+      {
+      	"type": "color",
+      	"name": "Section Bars",
+      	"find": "#252525"
+      },
+      {
+      	"type": "color",
+      	"name": "Countdown Color",
+      	"find": "#fafafa"
+      },
+      {
+      	"type": "color",
+      	"name": "Button BG",
+      	"find": "#3ad9a4"
+      },
+      {
+      	"type": "color",
+      	"name": "Button Text",
+      	"find": "#fefefe"
+      }
+    ]
+	},
+	"variables": {
+		"facebookShareURL": {
+		  "variable": "facebookShareURL",
+		  "dafault": "http://incuba.fi.uncoma.edu.ar/webinar/teletrabajo",
+		  "name": "The URL to share on Facebook. Leave blank to share the current page."
+		},
+		"twitterShareURL": {
+		  "variable": "twitterShareURL",
+		  "dafault": "http://incuba.fi.uncoma.edu.ar/webinar/teletrabajo",
+		  "name": "The URL to share on Twitter. Leave blank to share the current page."
+		},
+		"googleShareURL": {
+		  "variable": "googleShareURL",
+		  "dafault": "http://incuba.fi.uncoma.edu.ar/webinar/teletrabajo",
+		  "name": "The URL to share on Google+. Leave blank to share the current page."
+		},
+		"linkedInShareURL": {
+		  "variable": "linkedInShareURL",
+		  "dafault": "http://incuba.fi.uncoma.edu.ar/webinar/teletrabajo",
+		  "name": "The URL to share on LinkedIn. Leave blank to share the current page."
+		}
+	},
+	"elements": [
+		{
+			"id": "header",
+			"name": "Header",
+			"type": "container"
+		},
+		{
+			"id": "header-bg-image",
+			"name": "Background Image",
+			"type": "image"
+		},
+		{
+			"id": "header-headline",
+			"name": "Headline",
+			"type": "text"
+		},
+		{
+			"id": "header-subhead",
+			"name": "Subheadline",
+			"type": "text"
+		},
+		{
+			"id": "main",
+			"name": "Main Section",
+			"type": "container"
+		},
+		{
+			"id": "main-left",
+			"name": "Host Container",
+			"type": "container"
+		},
+		{
+			"id": "media-image",
+			"name": "Host Image",
+			"type": "image",
+			"data": {
+				"max-width": 176
+			}
+		},
+		{
+			"id": "media-body",
+			"name": "Information",
+			"type": "container"
+		},
+		{
+			"id": "media-host",
+			"name": "Headline",
+			"type": "text"
+		},
+		{
+			"id": "media-title",
+			"name": "Title",
+			"type": "text"
+		},
+		{
+			"id": "media-copy",
+			"name": "Copy",
+			"type": "text"
+		},
+		{
+			"id": "share-wrap",
+			"name": "Share Wrap",
+			"type": "container"
+		},
+		{
+			"id": "share-container",
+			"name": "Social Share Container",
+			"type": "container"
+		},
+		{
+		  "id": "share-facebook",
+		  "name": "Facebook",
+		  "type": "dynamic",
+		  "data": {
+		    "variables": ["facebookShareURL"]
+		  }
+		},
+		{
+		  "id": "share-twitter",
+		  "name": "Twitter",
+		  "type": "dynamic",
+		  "data": {
+		    "variables": ["twitterShareURL"]
+		  }
+		},
+		{
+		  "id": "share-google",
+		  "name": "Google+",
+		  "type": "dynamic",
+		  "data": {
+		    "variables": ["googleShareURL"]
+		  }
+		},
+		{
+		  "id": "share-linkedin",
+		  "name": "LinkedIn",
+		  "type": "dynamic",
+		  "data": {
+		    "variables": ["linkedInShareURL"]
+		  }
+		},
+		{
+			"id": "main-right",
+			"name": "Info Container",
+			"type": "container"
+		},
+		{
+			"id": "main-right-headline",
+			"name": "Headline",
+			"type": "text"
+		},
+		{
+			"id": "main-right-title",
+			"name": "Copy",
+			"type": "text"
+		},
+		{
+			"id": "main-calendar",
+			"name": "Calendar",
+			"type": "container"
+		},
+		{
+			"id": "month",
+			"name": "Month",
+			"type": "text"
+		},
+		{
+			"id": "day",
+			"name": "Day",
+			"type": "text"
+		},
+		{
+			"id": "main-list",
+			"name": "Times List",
+			"type": "text"
+		},
+		{
+			"id": "section01-container",
+			"name": "Section 01",
+			"type": "container"
+		},
+		{
+			"id": "countdown-wrap",
+			"name": "Countdown Section",
+			"type": "container"
+		},
+		{
+			"id": "countdown-headline",
+			"name": "Headline",
+			"type": "text"
+		},
+		{
+			"id": "countdown",
+			"name": "Countdown",
+			"type": "countdown"
+		},
+		{
+			"id": "days",
+			"name": "Days",
+			"type": "text"
+		},
+		{
+			"id": "hours",
+			"name": "Hours",
+			"type": "text"
+		},
+		{
+			"id": "minutes",
+			"name": "Minutes",
+			"type": "text"
+		},
+		{
+			"id": "seconds",
+			"name": "Seconds",
+			"type": "text"
+		},
+		{
+			"id": "btn01",
+			"name": "Call to Action 01",
+			"type": "link",
+			"data": {
+				"href": "#/optin"
+			}
+		},
+		{
+			"id": "section02",
+			"name": "Section 02",
+			"type": "container"
+		},
+		{
+			"id": "section02-list",
+			"name": "List",
+			"type": "text"
+		},
+		{
+			"id": "section03-container",
+			"name": "Section 03",
+			"type": "container"
+		},
+		{
+			"id": "btn02",
+			"name": "Call to Action 02",
+			"type": "link",
+			"data": {
+				"href": "#/optin"
+			}
+		},
+		{
+			"id": "footer-legal",
+			"name": "Footer Text",
+			"type": "text"
+		}
+  ],
+	"form": {}
+}
